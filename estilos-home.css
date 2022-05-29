@@ -1,0 +1,183 @@
+/*------------------------------ESTILOS HOME------------------------------*/
+
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Spicy+Rice&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: "montserrat", "sans-serif";
+}
+
+body{
+    background-color: #f6f6f6;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+h1{
+    font-family: "spicy rice", "serif";
+    font-size: 4em;
+    color:#00B18B;
+}
+
+h2{
+    font-weight: 400;
+}
+
+h3{
+    font-family: "spicy rice", "serif";
+    font-size: 3em;
+}
+
+p{
+    margin: 15px 0px;
+    font-size: 1em;
+}
+
+/*------------------------------MAIN------------------------------*/
+
+/*-----------------------------LANDING----------------------------*/
+
+#landing{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 0 7% 0;
+}
+
+.senda-logo{
+    display: flex;
+    margin-right: 50px;
+}
+
+.senda-logo img{
+    height: 400px;	
+}
+
+.bienvenida{
+    width: 30%;
+}
+
+.comenzar{
+    width: 40%;
+    background-color: #00b18b;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.comenzar a{
+    color: white;
+    text-decoration: none;
+}
+
+/*-----------------------------PRESENTACIÓN----------------------------*/
+
+#present{
+    display: flex;
+    justify-content: center;
+    padding: 7% 0;
+}
+.nosotros{
+    width: 40%;
+    margin-right: 5%;
+}
+
+.what{
+    width: 40%;
+}
+
+/*-----------------------------SECTORES----------------------------*/
+
+#sectores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 0 14% 0;
+}
+
+.nutri{
+    width: 70%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FC8A12;
+    border-radius: 50px;
+    padding-right: 50px;
+    color:#ffffff;
+}
+
+.nutri p{
+    color: #000000;
+}
+
+.foto-nutri{
+    height: 250px;
+    margin-right: 50px;
+}
+
+.foto-nutri img{
+    height: 100%;
+    border-radius: 50px;
+}
+
+.comu{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #57BDAE;
+    border-radius: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    color:#ffffff;
+}
+
+.comu p{
+    color: #000000;
+}
+
+.foto-comu{
+    height: 250px;
+    margin-right: 50px;
+}
+
+.foto-comu img{
+    height: 100%;
+    border-radius: 50px;
+}
+
+.trivia{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #E14924;
+    border-radius: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.trivia p{
+    color: #000000
+}
+
+.foto-trivia{
+    height: 250px;
+    margin-right: 50px;
+}
+
+.foto-trivia img{
+    height: 100%;
+    border-radius: 50px;
+}
