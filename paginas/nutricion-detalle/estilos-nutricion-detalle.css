@@ -1,0 +1,18 @@
+.estilo-imagen {
+    border-radius: 25px;
+}
+
+.fondo-receta {
+    background: #FFD6AC;
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: 10px;
+    max-width: 200px;
+}
+
+.receta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}

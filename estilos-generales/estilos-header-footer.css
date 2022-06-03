@@ -24,7 +24,6 @@ header{
     height: 70px;
     font-size: 0.8em;
     color: #ffffff;
-    position: fixed;
     /*box-shadow: 2px 2px 30px 2px #000000;*/
 }
 
@@ -67,6 +66,8 @@ footer{
     height: 120px;
     font-size: 0.8em;
     color: #ffffff;
+    position: absolute;
+    bottom: 0;
 }
 
 footer a{
