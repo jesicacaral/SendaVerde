@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: "montserrat", "sans-serif";
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+/*----------------------HEADER----------------------*/
+
+header {
+    width: 100%;
+    display: flex;
+    background-color: #00B18B;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    font-size: 0.8em;
+    color: #ffffff;
+}
+
+.logo-home {
+    display: flex;
+}
+
+.logo-home img {
+    height: 40px;
+    margin: 0px 120px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0 100px;
+}
+
+nav ul li {
+    margin: 0px 20px;
+    align-items: center;
+}
+
+/*----------------------HEADER----------------------*/
+
+/*----------------------MAIN----------------------*/
+
+h1 {
+    font-size: 1.2em;
+    color: #000000;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+h2 {
+    width: 13%;
+    background-color: #57BDAE;
+    border-radius: 50px;
+    margin-top: 40px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9em;
+    padding-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+h3 {
+    width: 13%;
+    background-color: #F3B343;
+    border-radius: 50px;
+    margin-top: 40px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9em;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+
+p {
+    width: 80%;
+    background-color: #57BDAE;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+    color:#00000;
+    font-size: 0.9em;
+    padding-left: 20px;
+}
+
+.imagen {
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.Locales {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.comentarios {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botones {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/*----------------------MAIN----------------------*/

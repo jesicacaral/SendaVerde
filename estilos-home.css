@@ -1,39 +1,36 @@
 @charset "utf-8";
 /* CSS Document */
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-family: "montserrat", "sans-serif";
 }
 
-body{
-    /*background-color: #f6f6f6;*/
-}
-
-.bold{
+.bold {
     font-weight: 700;
 }
 
-h1{
+h1 {
     font-family: "spicy rice", "serif";
     font-size: 4em;
-    color:#00B18B;
+    color: #00B18B;
 }
 
-h2{
+h2 {
     font-weight: 400;
 }
 
-h3{
-    margin: 5% 0;;
+h3 {
+    margin: 5% 0;
+    ;
     font-size: 2em;
     font-weight: 800;
     color: white;
 }
 
-p{
+p {
     margin: 15px 0px;
     font-size: 1em;
 }
@@ -42,27 +39,27 @@ p{
 
 /*-----------------------------LANDING----------------------------*/
 
-#landing{
-    display:flex;
+#landing {
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 12% 0 5% 0;
 }
 
-.senda-logo{
+.senda-logo {
     display: flex;
     margin-right: 50px;
 }
 
-.senda-logo img{
-    height: 400px;	
+.senda-logo img {
+    height: 400px;
 }
 
-.bienvenida{
+.bienvenida {
     width: 30%;
 }
 
-.comenzar{
+.comenzar {
     width: 40%;
     background-color: #00b18b;
     border-radius: 50px;
@@ -72,47 +69,48 @@ p{
     color: #ffffff;
 }
 
-.comenzar a{
+.comenzar a {
     color: white;
     text-decoration: none;
 }
 
 /*-----------------------------PRESENTACIÓN----------------------------*/
 
-#present{
+#present {
     display: flex;
     justify-content: center;
     padding: 5% 0 5% 0;
 }
-.nosotros{
+
+.nosotros {
     width: 40%;
     margin-right: 5%;
 }
 
-.what{
+.what {
     width: 40%;
 }
 
 /*-----------------------------SECTORES----------------------------*/
 
-#sectores{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-	padding: 5% 0 10%;
+#sectores {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5% 0 10%;
 }
 
-#sectores h3{
+#sectores h3 {
     text-align: center;
     font-weight: 800;
 }
 
-#sectores p{
+#sectores p {
     padding: 0% 7% 7%;
 }
 
-.nutri{
+.nutri {
     width: 30%;
     min-height: 550px;
     border-radius: 25px;
@@ -120,12 +118,12 @@ p{
     margin-right: 2%;
 }
 
-.foto-nutri img{
+.foto-nutri img {
     width: 100%;
     border-radius: 25px 25px 0 0;
 }
 
-.comu{
+.comu {
     width: 30%;
     min-height: 550px;
     border-radius: 25px;
@@ -133,19 +131,19 @@ p{
     margin-right: 2%;
 }
 
-.foto-comu img{
+.foto-comu img {
     width: 100%;
     border-radius: 25px 25px 0 0;
 }
 
-.trivia{
+.trivia {
     width: 30%;
     min-height: 550px;
     border-radius: 25px;
     background-color: #E14924;
 }
 
-.foto-trivia img{
+.foto-trivia img {
     width: 100%;
     border-radius: 25px 25px 0 0;
 }
