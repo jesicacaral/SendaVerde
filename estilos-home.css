@@ -1,9 +1,5 @@
-/*------------------------------ESTILOS HOME------------------------------*/
-
 @charset "utf-8";
 /* CSS Document */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Spicy+Rice&display=swap');
 
 *{
     margin: 0px;
@@ -13,7 +9,7 @@
 }
 
 body{
-    background-color: #f6f6f6;
+    /*background-color: #f6f6f6;*/
 }
 
 .bold{
@@ -31,8 +27,10 @@ h2{
 }
 
 h3{
-    font-family: "spicy rice", "serif";
-    font-size: 3em;
+    margin: 5% 0;;
+    font-size: 2em;
+    font-weight: 800;
+    color: white;
 }
 
 p{
@@ -48,7 +46,7 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
-    padding: 7% 0 7% 0;
+    padding: 12% 0 5% 0;
 }
 
 .senda-logo{
@@ -84,7 +82,7 @@ p{
 #present{
     display: flex;
     justify-content: center;
-    padding: 7% 0;
+    padding: 5% 0 5% 0;
 }
 .nosotros{
     width: 40%;
@@ -98,86 +96,56 @@ p{
 /*-----------------------------SECTORES----------------------------*/
 
 #sectores{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 7% 0 14% 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 5% 0 10%;
+}
+
+#sectores h3{
+    text-align: center;
+    font-weight: 800;
+}
+
+#sectores p{
+    padding: 0% 7% 7%;
 }
 
 .nutri{
-    width: 70%;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
+    width: 30%;
+    min-height: 550px;
+    border-radius: 25px;
     background-color: #FC8A12;
-    border-radius: 50px;
-    padding-right: 50px;
-    color:#ffffff;
-}
-
-.nutri p{
-    color: #000000;
-}
-
-.foto-nutri{
-    height: 250px;
-    margin-right: 50px;
+    margin-right: 2%;
 }
 
 .foto-nutri img{
-    height: 100%;
-    border-radius: 50px;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
 }
 
 .comu{
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    width: 30%;
+    min-height: 550px;
+    border-radius: 25px;
     background-color: #57BDAE;
-    border-radius: 50px;
-    padding-right: 50px;
-    margin-top: 50px;
-    color:#ffffff;
-}
-
-.comu p{
-    color: #000000;
-}
-
-.foto-comu{
-    height: 250px;
-    margin-right: 50px;
+    margin-right: 2%;
 }
 
 .foto-comu img{
-    height: 100%;
-    border-radius: 50px;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
 }
 
 .trivia{
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    width: 30%;
+    min-height: 550px;
+    border-radius: 25px;
     background-color: #E14924;
-    border-radius: 50px;
-    padding-right: 50px;
-    margin-top: 50px;
-    color: #ffffff;
-}
-
-.trivia p{
-    color: #000000
-}
-
-.foto-trivia{
-    height: 250px;
-    margin-right: 50px;
 }
 
 .foto-trivia img{
-    height: 100%;
-    border-radius: 50px;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
 }
