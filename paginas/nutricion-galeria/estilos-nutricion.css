@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: "montserrat", "sans-serif";
+}
+
+body{
+    background-color: #f6f6f6;
+}
+
+
+
+/*----------------------MAIN----------------------*/
+
+main{
+	width: 100%;
+    padding: 50px;
+	display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+main a{
+    margin-bottom: 50px;
+    margin:20px;
+    border-radius: 15px;
+    border: 1px solid black
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
