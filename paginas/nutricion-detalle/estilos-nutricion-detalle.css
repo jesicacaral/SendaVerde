@@ -1,13 +1,17 @@
 .estilo-imagen {
     border-radius: 25px;
+    border: 1.5px solid black;
+    height: 100%;
+    margin-right: 50px;
+    box-sizing: border-box;
 }
 
 .fondo-receta {
     background: #FFD6AC;
     border-radius: 25px;
-    padding: 20px;
-    margin-left: 10px;
-    max-width: 200px;
+    padding: 10px;
+    max-width: 500px;
+    box-sizing: border-box;
 }
 
 .receta {
