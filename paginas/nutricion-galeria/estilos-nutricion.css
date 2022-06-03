@@ -33,9 +33,7 @@ main a{
 }
 
 .recetas{
-    border-radius: 25px;
-    border-radius: 25px 25px 0 0;
-    
+    border-radius: 25px; 
 }
 
 .nombres{
