@@ -15,7 +15,7 @@ li {
 
 /*------------------------------HEADER------------------------------*/
 
-header{
+header {
     width: 100%;
     display: flex;
     background-color: #00B18B;
@@ -24,30 +24,31 @@ header{
     height: 70px;
     font-size: 0.8em;
     color: #ffffff;
+    position: fixed;
     /*box-shadow: 2px 2px 30px 2px #000000;*/
 }
 
-.logo-home{
+.logo-home {
     display: flex;
 }
 
-.logo-home img{
+.logo-home img {
     height: 40px;
     margin: 0px 120px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     margin: 0 100px;
 }
 
-nav ul li{
+nav ul li {
     margin: 0px 20px;
     align-items: center;
     list-style: none;
 }
 
-body{
+body {
     background-image: url("../img/background entero.jpg");
     background-size: 100%;
 }
@@ -55,7 +56,8 @@ body{
 
 /*-----------------------------FOOTER----------------------------*/
 
-footer{
+footer {
+    bottom: 0;
     box-sizing: border-box;
     width: 100%;
     display: flex;
@@ -69,12 +71,12 @@ footer{
     position: absolute;
 }
 
-footer a{
+footer a {
     color: #000000;
     text-decoration: none;
 }
 
-footer .data{
+footer .data {
     margin-left: 20px;
 }
 
@@ -84,19 +86,20 @@ footer ul {
     list-style: none;
 }
 
-footer ul li{
+footer ul li {
     margin: 0 20px;
     align-items: center;
-    
+
 }
 
-.redes{
+.redes {
     display: flex;
-    bottom:10px;
+    bottom: 10px;
     width: 10%;
     justify-content: space-between;
     margin-left: 120px;
 }
-.redes img{
+
+.redes img {
     height: 20px;
 }
