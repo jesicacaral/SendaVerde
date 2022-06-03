@@ -1,7 +1,7 @@
 /*------------------------------ESTILOS HEADER Y FOOTER------------------------------*/
 /* (los ponemos aca porque se repiten en todas las paginas) */
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Spicy+Rice&display=swap');
 
 /*------------------------------GENERAL RESET------------------------------*/
 
@@ -12,6 +12,7 @@ body {
     position: relative;
     padding-bottom: 120px;
     box-sizing: border-box;
+    font-family: "manrope", "sans-serif";
 }
 
 li {
