@@ -42,16 +42,35 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5% 0 5% 0;
+    padding: 5% 0;
 }
 
 .senda-logo {
+    width: 410px;
+    height: 400px;
     display: flex;
     margin-right: 50px;
+    background-image: url(img/img-home/logo-iso1.png);
+    background-size: 100% 100%;
+    animation: logo alternate .5s infinite ease-in-out;
 }
 
-.senda-logo img {
-    height: 400px;
+@keyframes logo {
+    0%{
+        background-image: url(img/img-home/logo-iso1.png);
+    }
+
+    25%{
+        background-image: url(img/img-home/logo-iso2.png);
+    }
+
+    50%{
+        background-image:url(img/img-home/logo-iso3.png);
+    }
+
+    100%{
+        background-image: url(img/img-home/logo-iso4.png);
+    }
 }
 
 .bienvenida {
@@ -62,7 +81,7 @@ p {
     width: 40%;
     background-color: #00b18b;
     border-radius: 50px;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 20px;
     text-align: center;
     color: #ffffff;
@@ -71,6 +90,17 @@ p {
 .comenzar a {
     color: white;
     text-decoration: none;
+}
+
+.comenzar:hover{
+    background-color: #007C62;
+    width: 50%;
+    transition: .5s;
+}
+
+.comenzar a:hover{
+    font-weight: 800;
+    transition: .5s;
 }
 
 /*-----------------------------PRESENTACIÓN----------------------------*/
@@ -82,12 +112,12 @@ p {
 }
 
 .nosotros {
-    width: 40%;
-    margin-right: 5%;
+    width: 30%;
+    margin-right: 50px;
 }
 
 .what {
-    width: 40%;
+    width: 30%;
 }
 
 /*-----------------------------SECTORES----------------------------*/
@@ -109,12 +139,34 @@ p {
     padding: 0% 7% 7%;
 }
 
+.nutri, .comu, .trivia{
+    min-height: 520px;
+}
+
 .nutri {
-    width: 30%;
-    min-height: 550px;
+    width: 25%;
+    /* min-height: 550px; */
     border-radius: 25px;
     background-color: #FC8A12;
     margin-right: 2%;
+}
+
+.nutri:hover{
+    width: 35%;
+    transition: 0.5s;
+    background-color: #FC4A12;
+}
+
+.comu:hover{
+    width: 35%;
+    transition: 0.5s;
+    background-color: #4A85A6;
+}
+
+.trivia:hover{
+    width: 35%;
+    transition: 0.5s;
+    background-color: #E12424;
 }
 
 .foto-nutri img {
@@ -123,8 +175,8 @@ p {
 }
 
 .comu {
-    width: 30%;
-    min-height: 550px;
+    width: 25%;
+    /* min-height: 550px; */
     border-radius: 25px;
     background-color: #57BDAE;
     margin-right: 2%;
@@ -136,8 +188,8 @@ p {
 }
 
 .trivia {
-    width: 30%;
-    min-height: 550px;
+    width: 25%;
+    /* min-height: 550px; */
     border-radius: 25px;
     background-color: #E14924;
 }
