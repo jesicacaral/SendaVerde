@@ -5,6 +5,11 @@
 
 /*------------------------------GENERAL RESET------------------------------*/
 
+html {
+    scroll-behavior: smooth;
+    transition-duration: 3s;
+}
+
 body {
     margin: 0;
     padding-top: 75px;
@@ -19,41 +24,75 @@ li {
     list-style: none;
 }
 
+li a{
+    text-decoration: none;
+}
+
 /*------------------------------HEADER------------------------------*/
 
-header {
+.header{
+    background-color: #00b18b;
     width: 100%;
-    display: flex;
-    background-color: #00B18B;
-    justify-content: space-between;
-    align-items: center;
     height: 70px;
-    font-size: 0.8em;
-    color: #ffffff;
     position: fixed;
     top: 0;
     z-index: 1;
+    left: 0;
     /*box-shadow: 2px 2px 30px 2px #000000;*/
 }
 
-.logo-home {
+.nav{
     display: flex;
+    justify-content: space-between;
+    /* max-width: 992px; */
+    margin: 0 120px;
 }
 
-.logo-home img {
-    height: 40px;
-    margin: 0px 120px;
+nav a{
+    color: #ffffff;
 }
 
-nav ul {
+.logo{
+    padding: 0 40px;
     display: flex;
-    margin: 0 100px;
-}
-
-nav ul li {
-    margin: 0px 20px;
     align-items: center;
-    list-style: none;
+}
+
+.logo img{
+    height: 40px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+}
+
+.nav-menu-item{
+    font-size: 0.8em;
+    margin: 0 10px;
+    line-height: 70px;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.nav-menu-link:hover{
+    background-color: #007C62;
+    transition: .5s;
+}
+
+.nav-toggle{
+    color: #ffffff;
+    background: none;
+    border: none;
+    font-size: 2em;
+    padding: 0 20px;
+    line-height: 70px;
+    cursor: pointer;
+    display: none;
 }
 
 body {
@@ -110,4 +149,42 @@ footer ul li {
 
 .redes img {
     height: 20px;
+}
+
+@media (max-width: 768px){
+    .nav-menu{
+        flex-direction: column;
+        margin-right: 0;
+        width: 100%;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        padding: 20px 0;
+        background-color: #007C62;
+        align-items: flex-end;
+        margin-right: 120px;
+        height: calc(100% - 70px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left .5s;
+        font-size: 1.5em;
+    }
+
+    .nav-menu-item{
+        margin-right: 120px;;
+    }
+
+    .nav-menu-link:hover{
+        background-color: none;
+        font-weight: 800;
+        transition: .5s;
+    }
+    
+    .nav-toggle{
+        display: block;
+    }
+    
+    .nav-menu_visible{
+        left: 0;
+    }
 }

@@ -1,22 +1,29 @@
-.estilo-imagen {
-    border-radius: 25px;
-    border: 1.5px solid black;
-    height: 100%;
-    margin-right: 50px;
-    box-sizing: border-box;
-}
-
-.fondo-receta {
-    background: #FFD6AC;
-    border-radius: 25px;
-    padding: 10px;
-    max-width: 500px;
-    box-sizing: border-box;
+.seccion-receta {
+    padding: 25px 15% 0;
 }
 
 .receta {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+    gap: 20px;
+}
+
+.foto-receta, .slideshow-container {
+    width: 50%;
+    border-radius: 25px;
+}
+
+.slideshow-container img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .receta {
+        flex-direction: column;
+    }
+
+    .foto-receta, .slideshow-container {
+        width: 100%;
+    }
 }

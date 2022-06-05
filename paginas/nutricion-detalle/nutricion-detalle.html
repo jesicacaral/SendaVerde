@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Nutricion</title>
     <link rel="stylesheet" href="estilos-nutricion-detalle.css">
+    <link rel="stylesheet" href="carrousel-styles.css">
     <link rel="stylesheet" href="../../estilos-generales/estilos-header-footer.css">
     <link rel="icon" href="../../img/favicon.ico">
 </head>
@@ -23,27 +24,33 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="seccion-receta">
         <h2>Hamburguesa de Porotos Negros</h2>
         <div class="receta">
-            <article>
-                <img class="estilo-imagen" src="../../img/img-nutricion-detalle/Hamburguesa.jpg">
-            </article>
-            <article class="fondo-receta">
-                <h5>
-                    <ul>
-                        Ingredientes:
-                        <li>- 3 tazas de porotos negros cocidos.</li>
-                        <li>- 6 tomates secos.</li>
-                        <li>- 2 dientes de ajo.</li>
-                        <li>- 1 cebolla chica.</li>
-                        <li>- 1 manojo de perejil.</li>
-                        <li>- 1 cucharada de pan rallado.</li>
-                        <li>- Sal, pimienta, pimentón y comino.</li>
-                        <li>- Aceite para cocinar y aceto para remojar los tomates.</li>
-                    </ul>
-                </h5>
-            </article>
+            <img class="foto-receta" src="../../img/img-nutricion-detalle/Hamburguesa.jpg">
+            <div class="slideshow-container">
+                <div class="my-slides fade">
+                    <img src="../../img/img-nutricion-detalle/Ingredientes-100.jpg">
+                </div>
+                <div class="my-slides fade">
+                    <img src="../../img/img-nutricion-detalle/preparacion-1-100.jpg">
+                </div>
+                <div class="my-slides fade">
+                    <img src="../../img/img-nutricion-detalle/preparacion-2-100.jpg">
+                </div>
+                <div class="my-slides fade">
+                    <img src="../../img/img-nutricion-detalle/preparacion-3-100.jpg">
+                </div>
+                <div class="my-slides fade">
+                    <img src="../../img/img-nutricion-detalle/preparacion-4-100.jpg">
+                </div>
+                <div class="my-slides fade">
+                    <img src="../../img/img-nutricion-detalle/preparacion-5-100.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
         </div>
     </section>
     <footer>
@@ -60,6 +67,7 @@
             <li><a href="#sectores">Aviso de privacidad</a></li>
         </ul>
     </footer>
+    <script src="carrousel.js"></script>
 </body>
 
 </html>

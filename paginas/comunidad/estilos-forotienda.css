@@ -11,40 +11,6 @@ body {
     background-color: #f6f6f6;
 }
 
-/*----------------------HEADER----------------------*/
-
-header {
-    width: 100%;
-    display: flex;
-    background-color: #00B18B;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    font-size: 0.8em;
-    color: #ffffff;
-}
-
-.logo-home {
-    display: flex;
-}
-
-.logo-home img {
-    height: 40px;
-    margin: 0px 120px;
-}
-
-nav ul {
-    display: flex;
-    margin: 0 100px;
-}
-
-nav ul li {
-    margin: 0px 20px;
-    align-items: center;
-}
-
-/*----------------------HEADER----------------------*/
-
 /*----------------------MAIN----------------------*/
 
 h1 {
