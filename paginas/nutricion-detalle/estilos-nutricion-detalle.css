@@ -1,33 +1,29 @@
-.carrusel {
-    width: 90%;
-    max-width: 120%;
-    display: flex;
-    flex-flow: row nowrap;
-justify-content: flex-start;
-align-items: center;
-padding: 1px;
+.seccion-receta {
+    padding: 25px 15% 0;
 }
 
-.carrusel-fotos {
+.receta {
     display: flex;
-    width: 200%;
-   
+    flex-direction: row;
+    gap: 20px;
 }
 
-.puntos {
+.foto-receta, .slideshow-container {
+    width: 50%;
+    border-radius: 25px;
+}
+
+.slideshow-container img {
+    border-radius: 25px;
     width: 100%;
-    background-color: grey;
-    padding: 1em;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
 }
 
-.punto {
-    width: 2em;
-    height: 2em;
-    background-color: bisque;
-    margin: 1em;
-}
+@media (max-width: 600px) {
+    .receta {
+        flex-direction: column;
+    }
 
+    .foto-receta, .slideshow-container {
+        width: 100%;
+    }
+}
