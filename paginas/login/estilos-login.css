@@ -1,0 +1,21 @@
+.alineacion {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.espacio-abajo {
+    margin-bottom: 5px;
+}
+
+.espacio-abajo-abajo {
+    margin-bottom: 40px;
+}
+
+.espacio-arriba {
+    margin-top: 80px;
+}
