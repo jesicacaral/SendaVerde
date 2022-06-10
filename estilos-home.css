@@ -36,7 +36,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5% 0;
+    padding: 7% 0;
 }
 
 .senda-logo {
@@ -103,6 +103,7 @@ p {
     display: flex;
     justify-content: center;
     padding: 5% 0 5% 0;
+    background-color: #00B18B;
 }
 
 .nosotros {
@@ -121,7 +122,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 5% 0 10%;
+    padding: 7% 0 10%;
 }
 
 #sectores h3 {
@@ -146,19 +147,19 @@ p {
 }
 
 .nutri:hover{
-    width: 35%;
+    width: 30%;
     transition: 0.5s;
     background-color: #FC4A12;
 }
 
 .comu:hover{
-    width: 35%;
+    width: 30%;
     transition: 0.5s;
     background-color: #4A85A6;
 }
 
 .trivia:hover{
-    width: 35%;
+    width: 30%;
     transition: 0.5s;
     background-color: #E12424;
 }
