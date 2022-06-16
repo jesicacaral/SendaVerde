@@ -2,6 +2,10 @@
     padding: 25px 15% 0;
 }
 
+.espacio-abajo {
+    padding-bottom: 25px;
+}
+
 .receta {
     display: flex;
     flex-direction: row;
