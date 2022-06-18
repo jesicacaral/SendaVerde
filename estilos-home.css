@@ -42,7 +42,6 @@ p {
 .senda-logo {
     width: 410px;
     height: 400px;
-    display: flex;
     margin-right: 50px;
     background-image: url(img/img-home/logo-iso1.png);
     background-size: 100% 100%;
@@ -123,6 +122,7 @@ p {
     justify-content: center;
     align-items: flex-start;
     padding: 7% 0 10%;
+    gap: 2%;
 }
 
 #sectores h3 {
@@ -135,15 +135,19 @@ p {
 }
 
 .nutri, .comu, .trivia{
-    min-height: 520px;
+    min-height: 500px;
+    width: 25%;
+}
+
+.nutri p, .comu p, .trivia p{
+    width: 280px;
+    margin: 0 auto;
+    font-size: .9em;
 }
 
 .nutri {
-    width: 25%;
-    /* min-height: 550px; */
     border-radius: 25px;
     background-color: #FC8A12;
-    margin-right: 2%;
 }
 
 .nutri:hover{
@@ -152,10 +156,20 @@ p {
     background-color: #FC4A12;
 }
 
+.comu {
+    border-radius: 25px;
+    background-color: #57BDAE;
+}
+
 .comu:hover{
     width: 30%;
     transition: 0.5s;
     background-color: #4A85A6;
+}
+
+.trivia {
+    border-radius: 25px;
+    background-color: #E14924;
 }
 
 .trivia:hover{
@@ -169,27 +183,149 @@ p {
     border-radius: 25px 25px 0 0;
 }
 
-.comu {
-    width: 25%;
-    /* min-height: 550px; */
-    border-radius: 25px;
-    background-color: #57BDAE;
-    margin-right: 2%;
-}
-
 .foto-comu img {
     width: 100%;
     border-radius: 25px 25px 0 0;
 }
 
-.trivia {
-    width: 25%;
-    /* min-height: 550px; */
-    border-radius: 25px;
-    background-color: #E14924;
-}
-
 .foto-trivia img {
     width: 100%;
     border-radius: 25px 25px 0 0;
+}
+
+/* Responsive */
+
+@media (max-width:1200px) {
+    .nutri p, .comu p, .trivia p{
+        width: 175px;
+    }
+    .what {
+        width: 40%;
+    }         
+}
+
+@media (max-width:768px) {
+    #landing {
+        display: flex;
+        flex-direction: column;
+        padding: 7% 0 20% 0;
+    }
+    
+    .senda-logo {
+        width: 300px;
+        height: 290px;
+        margin: 0;
+    }
+
+    .bienvenida {
+        width: 70%;
+    }
+
+    .bienvenida h1{
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .bienvenida p{
+        text-align: center;
+    }
+
+    .comenzar{
+        margin: 30px auto 0;
+    }
+
+    #present {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 14% 0 14% 0;
+        background-color: #00B18B;
+        gap: 50px;
+    }
+
+    .nosotros, .what{
+        margin: 0 auto;
+        width: 70%;
+    }
+    
+    /* Sectores */
+
+    #sectores {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 7% 0 10%;
+        gap: 50px;
+    }
+    
+    #sectores h3 {
+        text-align: center;
+        font-weight: 800;
+    }
+    
+    #sectores p {
+        padding: 0% 7% 7%;
+    }
+    
+    .nutri, .comu, .trivia{
+        min-height: 550px;
+        width: 70%;
+    }
+    
+    .nutri p, .comu p, .trivia p{
+        width: 300px;
+        margin: 0 auto;
+        font-size: .9em;
+    }
+    
+    .nutri {
+        border-radius: 25px;
+        background-color: #FC8A12;
+    }
+    
+    .nutri:hover{
+        width: 80%;
+        transition: 0.5s;
+        background-color: #FC4A12;
+    }
+    
+    .comu {
+        border-radius: 25px;
+        background-color: #57BDAE;
+    }
+    
+    .trivia {
+        border-radius: 25px;
+        background-color: #E14924;
+    }
+
+    .comu:hover{
+        width: 80%;
+        transition: 0.5s;
+        background-color: #4A85A6;
+    }
+        
+    .trivia:hover{
+        width: 80%;
+        transition: 0.5s;
+        background-color: #E12424;
+    }
+    
+    .foto-nutri img {
+        width: 100%;
+        border-radius: 25px 25px 0 0;
+    }
+    
+    .foto-comu img {
+        width: 100%;
+        border-radius: 25px 25px 0 0;
+    }
+    
+    .foto-trivia img {
+        width: 100%;
+        border-radius: 25px 25px 0 0;
+    }
+    
 }
