@@ -256,17 +256,12 @@ p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 7% 0 10%;
+        padding: 20% 0 10%;
         gap: 50px;
     }
     
     #sectores h3 {
-        text-align: center;
-        font-weight: 800;
-    }
-    
-    #sectores p {
-        padding: 0% 7% 7%;
+        margin: 20px 0;
     }
     
     .nutri, .comu, .trivia{
@@ -275,57 +270,24 @@ p {
     }
     
     .nutri p, .comu p, .trivia p{
-        width: 300px;
+        width: 350px;
         margin: 0 auto;
         font-size: .9em;
     }
-    
-    .nutri {
-        border-radius: 25px;
-        background-color: #FC8A12;
-    }
-    
+        
     .nutri:hover{
         width: 80%;
         transition: 0.5s;
-        background-color: #FC4A12;
     }
     
-    .comu {
-        border-radius: 25px;
-        background-color: #57BDAE;
-    }
-    
-    .trivia {
-        border-radius: 25px;
-        background-color: #E14924;
-    }
-
     .comu:hover{
         width: 80%;
         transition: 0.5s;
-        background-color: #4A85A6;
     }
         
     .trivia:hover{
         width: 80%;
         transition: 0.5s;
         background-color: #E12424;
-    }
-    
-    .foto-nutri img {
-        width: 100%;
-        border-radius: 25px 25px 0 0;
-    }
-    
-    .foto-comu img {
-        width: 100%;
-        border-radius: 25px 25px 0 0;
-    }
-    
-    .foto-trivia img {
-        width: 100%;
-        border-radius: 25px 25px 0 0;
-    }
-    
+    }    
 }
