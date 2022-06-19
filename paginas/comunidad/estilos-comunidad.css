@@ -155,25 +155,15 @@ h1 {
 
 @media (max-width:1200px) {
     .foro-container {
-        width: 70%;
+        width: 80%;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:768px) {
+    .foro-container {
+        width: 60%;
+        ;
+    }
 
     .content {
         display: flex;
@@ -202,71 +192,18 @@ h1 {
     .foro,
     .new-foro {
         width: 50%;
-        font-size: 1em;
-        padding: 20px;
-        color: #fff;
-        border-radius: 25px;
-        text-align: center;
-    }
-
-    .foro {
-        background-color: #57BDAE;
-    }
-
-    .new-foro {
-        background-color: #F3B343;
-    }
-
-    .foro:hover {
-        transform: scale(1.1);
-        transition: 500ms;
-        background-color: #4A85A6;
-    }
-
-    .new-foro:hover {
-        transform: scale(1.1);
-        transition: 500ms;
-        background-color: #F38243;
     }
 
     /* -----BOTONES BOTTOM----- */
 
     .button_gen {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        gap: 40px;
         padding-top: 10px;
         padding-bottom: 40px;
     }
 
     .foro_gen,
     .foro_new_gen {
-        font-size: 1em;
         width: 100%;
-        padding: 20px;
-        color: #fff;
-        border-radius: 25px;
-        text-align: center;
-    }
-
-    .foro_gen {
-        background-color: #57BDAE;
-    }
-
-    .foro_new_gen {
-        background-color: #F3B343;
-    }
-
-    .foro_gen:hover {
-        transform: scale(1.1);
-        transition: 500ms;
-        background-color: #4A85A6;
-    }
-
-    .foro_new_gen:hover {
-        transform: scale(1.1);
-        transition: 500ms;
-        background-color: #F38243;
     }
 }
