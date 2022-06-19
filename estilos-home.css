@@ -49,19 +49,19 @@ p {
 }
 
 @keyframes logo {
-    0%{
+    0% {
         background-image: url(img/img-home/logo-iso1.png);
     }
 
-    25%{
+    25% {
         background-image: url(img/img-home/logo-iso2.png);
     }
 
-    50%{
-        background-image:url(img/img-home/logo-iso3.png);
+    50% {
+        background-image: url(img/img-home/logo-iso3.png);
     }
 
-    100%{
+    100% {
         background-image: url(img/img-home/logo-iso4.png);
     }
 }
@@ -85,13 +85,13 @@ p {
     text-decoration: none;
 }
 
-.comenzar:hover{
+.comenzar:hover {
     background-color: #007C62;
     width: 50%;
     transition: .5s;
 }
 
-.comenzar a:hover{
+.comenzar a:hover {
     font-weight: 800;
     transition: .5s;
 }
@@ -134,12 +134,16 @@ p {
     padding: 0% 7% 7%;
 }
 
-.nutri, .comu, .trivia{
+.nutri,
+.comu,
+.trivia {
     min-height: 480px;
     width: 25%;
 }
 
-.nutri p, .comu p, .trivia p{
+.nutri p,
+.comu p,
+.trivia p {
     margin: 0 auto;
     font-size: .9em;
 }
@@ -149,7 +153,7 @@ p {
     background-color: #FC8A12;
 }
 
-.nutri:hover{
+.nutri:hover {
     transform: scale(1.1);
     transition: 500ms;
     background-color: #FC4A12;
@@ -160,7 +164,7 @@ p {
     background-color: #57BDAE;
 }
 
-.comu:hover{
+.comu:hover {
     transform: scale(1.1);
     transition: 500ms;
     background-color: #4A85A6;
@@ -171,7 +175,7 @@ p {
     background-color: #E14924;
 }
 
-.trivia:hover{
+.trivia:hover {
     transform: scale(1.1);
     transition: 500ms;
     background-color: #E12424;
@@ -195,21 +199,27 @@ p {
 /* Responsive */
 
 @media (max-width:1200px) {
-    .nutri p, .comu p, .trivia p{
-        width: 175px;
+
+    #landing {
+        padding: 15% 0;
     }
+
+
+    .bienvenida {
+        width: 40%;
+    }
+
     .what {
         width: 40%;
-    }         
+    }
 }
 
 @media (max-width:768px) {
     #landing {
-        display: flex;
         flex-direction: column;
-        padding: 7% 0 20% 0;
+        padding: 10% 0 20% 0;
     }
-    
+
     .senda-logo {
         width: 300px;
         height: 290px;
@@ -220,33 +230,31 @@ p {
         width: 70%;
     }
 
-    .bienvenida h1{
+    .bienvenida h1 {
         margin-top: 10px;
         text-align: center;
     }
-    
-    .bienvenida p{
+
+    .bienvenida p {
         text-align: center;
     }
 
-    .comenzar{
+    .comenzar {
         margin: 30px auto 0;
     }
 
     #present {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
         padding: 14% 0 14% 0;
-        background-color: #00B18B;
         gap: 50px;
     }
 
-    .nosotros, .what{
+    .nosotros,
+    .what {
         margin: 0 auto;
         width: 70%;
     }
-    
+
     /* Sectores */
 
     #sectores {
@@ -258,35 +266,16 @@ p {
         padding: 20% 0 10%;
         gap: 50px;
     }
-    
+
     #sectores h3 {
         margin: 20px 0;
     }
-    
-    .nutri, .comu, .trivia{
+
+    .nutri,
+    .comu,
+    .trivia {
         min-height: 550px;
         width: 70%;
     }
-    
-    .nutri p, .comu p, .trivia p{
-        width: 350px;
-        margin: 0 auto;
-        font-size: .9em;
-    }
-        
-    .nutri:hover{
-        width: 80%;
-        transition: 0.5s;
-    }
-    
-    .comu:hover{
-        width: 80%;
-        transition: 0.5s;
-    }
-        
-    .trivia:hover{
-        width: 80%;
-        transition: 0.5s;
-        background-color: #E12424;
-    }    
+
 }
