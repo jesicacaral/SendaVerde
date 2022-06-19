@@ -121,7 +121,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 7% 0 10%;
+    padding: 9% 0 7% 0;
     gap: 2%;
 }
 
@@ -135,12 +135,11 @@ p {
 }
 
 .nutri, .comu, .trivia{
-    min-height: 500px;
+    min-height: 480px;
     width: 25%;
 }
 
 .nutri p, .comu p, .trivia p{
-    width: 280px;
     margin: 0 auto;
     font-size: .9em;
 }
@@ -151,8 +150,8 @@ p {
 }
 
 .nutri:hover{
-    width: 30%;
-    transition: 0.5s;
+    transform: scale(1.1);
+    transition: 500ms;
     background-color: #FC4A12;
 }
 
@@ -162,8 +161,8 @@ p {
 }
 
 .comu:hover{
-    width: 30%;
-    transition: 0.5s;
+    transform: scale(1.1);
+    transition: 500ms;
     background-color: #4A85A6;
 }
 
@@ -173,8 +172,8 @@ p {
 }
 
 .trivia:hover{
-    width: 30%;
-    transition: 0.5s;
+    transform: scale(1.1);
+    transition: 500ms;
     background-color: #E12424;
 }
 

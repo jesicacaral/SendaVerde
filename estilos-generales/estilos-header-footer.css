@@ -28,6 +28,8 @@ body {
     padding-bottom: 120px;
     box-sizing: border-box;
     font-family: "manrope", "sans-serif";
+    background-image: url("../img/background.jpg");
+    background-size: 100%;
 }
 
 li {
@@ -105,12 +107,6 @@ nav a {
     cursor: pointer;
     display: none;
 }
-
-body {
-    background-image: url("../img/background entero.jpg");
-    background-size: 100%;
-}
-
 
 /*-----------------------------FOOTER----------------------------*/
 
