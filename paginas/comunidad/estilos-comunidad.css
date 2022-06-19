@@ -14,7 +14,6 @@ h1 {
 }
 
 .foro-container {
-    animation: slide-in-top 700ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     /* background-color: tomato; */
     display: flex;
     flex-direction: column;
@@ -22,6 +21,7 @@ h1 {
     width: 60%;
     margin: 0 auto;
     padding: 5%;
+    animation: slide-in-top 700ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @keyframes slide-in-top {
@@ -36,7 +36,12 @@ h1 {
     }
 }
 
-.tienda {
+.foro_shop {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.foro_exp {
     width: 100%;
     /* background-color: red; */
 }
@@ -55,6 +60,8 @@ h1 {
     background-position: center;
     background-size: cover;
     border-radius: 25px;
+    min-height: 200px;
+    /* background-color: red; */
 }
 
 .img-comu {
@@ -63,6 +70,8 @@ h1 {
     background-position: bottom;
     background-size: cover;
     border-radius: 25px;
+    min-height: 200px;
+    /* background-color: red; */
 }
 
 .button {
@@ -140,4 +149,124 @@ h1 {
     transform: scale(1.1);
     transition: 500ms;
     background-color: #F38243;
+}
+
+/* -----   RESPONSIVE  ----- */
+
+@media (max-width:1200px) {
+    .foro-container {
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* background-color: blue; */
+        height: 330px;
+    }
+
+    .img-tienda {
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .img-comu {
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .button {
+        width: 100%;
+        flex-direction: row;
+        /* background-color: tomato; */
+    }
+
+    .foro,
+    .new-foro {
+        width: 50%;
+        font-size: 1em;
+        padding: 20px;
+        color: #fff;
+        border-radius: 25px;
+        text-align: center;
+    }
+
+    .foro {
+        background-color: #57BDAE;
+    }
+
+    .new-foro {
+        background-color: #F3B343;
+    }
+
+    .foro:hover {
+        transform: scale(1.1);
+        transition: 500ms;
+        background-color: #4A85A6;
+    }
+
+    .new-foro:hover {
+        transform: scale(1.1);
+        transition: 500ms;
+        background-color: #F38243;
+    }
+
+    /* -----BOTONES BOTTOM----- */
+
+    .button_gen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    .foro_gen,
+    .foro_new_gen {
+        font-size: 1em;
+        width: 100%;
+        padding: 20px;
+        color: #fff;
+        border-radius: 25px;
+        text-align: center;
+    }
+
+    .foro_gen {
+        background-color: #57BDAE;
+    }
+
+    .foro_new_gen {
+        background-color: #F3B343;
+    }
+
+    .foro_gen:hover {
+        transform: scale(1.1);
+        transition: 500ms;
+        background-color: #4A85A6;
+    }
+
+    .foro_new_gen:hover {
+        transform: scale(1.1);
+        transition: 500ms;
+        background-color: #F38243;
+    }
 }
