@@ -144,7 +144,7 @@ footer ul {
 
 footer ul li {
     padding: 8px 12px;
-    gap: 20px;
+    margin-right: 20px;
     align-items: center;
     border-radius: 25px;
 }
