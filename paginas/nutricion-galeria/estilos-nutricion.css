@@ -50,7 +50,31 @@ main{
     
 }
 
+/* NUEVO */
 
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* width: 100%; */
+    padding: 10px;
+}
+
+.botones a{
+    color: #fff;
+    background-color: #00B18B;
+    width: 15%;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones a:hover{
+    background-color: #007C62;
+    transition: .5s;
+}
 
 
 
