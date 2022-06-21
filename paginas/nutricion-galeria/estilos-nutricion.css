@@ -22,7 +22,7 @@ main{
     margin:20px;
     min-height: 250px;
     border-radius: 25px;
-    border: 2.5px solid black;
+    border: 1.5px solid black;
     background-color: #FFD6AC;
 }
 
@@ -38,6 +38,17 @@ main{
     text-decoration: none !important;
 }
 
+.boton{
+    background-color: #00B18B;
+    border-radius: 13px;
+    border: none;
+    font-size: 10px;
+    color: #ffff;
+    margin-left: 7px;
+    padding: 3px 11px;
+    text-transform: uppercase;
+    
+}
 
 
 
