@@ -62,6 +62,7 @@ h1 {
     border-radius: 25px;
     min-height: 200px;
     /* background-color: red; */
+    animation: scale-in-hor-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .img-comu {
@@ -72,6 +73,25 @@ h1 {
     border-radius: 25px;
     min-height: 200px;
     /* background-color: red; */
+    animation: scale-in-hor-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes scale-in-hor-center {
+    0% {
+        transform: scaleX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+.comment {
+    background-color: #57bdae;
+    width: 100%;
+    border-radius: 25px;
 }
 
 .button {

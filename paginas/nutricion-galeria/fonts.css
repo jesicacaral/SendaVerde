@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?s7dnkj');
-  src:  url('fonts/icomoon.eot?s7dnkj#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?s7dnkj') format('truetype'),
-    url('fonts/icomoon.woff?s7dnkj') format('woff'),
-    url('fonts/icomoon.svg?s7dnkj#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?coftp');
+  src:  url('fonts/icomoon.eot?coftp#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?coftp') format('truetype'),
+    url('fonts/icomoon.woff?coftp') format('woff'),
+    url('fonts/icomoon.svg?coftp#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,9 @@
 
 .icon-redo2:before {
   content: "\e968";
+}
+.icon-user:before {
+  content: "\e971";
 }
 .icon-bookmark:before {
   content: "\e9d2";
