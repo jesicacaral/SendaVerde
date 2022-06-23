@@ -56,7 +56,7 @@ h1 {
 
 .img-tienda {
     width: 65%;
-    background-image: url(../../img/img-comu/Comunidad\ 1.png);
+    background-image: url(img/img-comu/Comunidad\ 1.png);
     background-position: center;
     background-size: cover;
     border-radius: 25px;
@@ -67,7 +67,7 @@ h1 {
 
 .img-comu {
     width: 65%;
-    background-image: url(../../img/img-comu/Comunidad\ 2.jpg);
+    background-image: url(img/img-comu/Comunidad\ 2.jpg);
     background-position: bottom;
     background-size: cover;
     border-radius: 25px;

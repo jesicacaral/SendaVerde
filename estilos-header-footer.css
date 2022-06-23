@@ -28,7 +28,7 @@ body {
     padding-bottom: 120px;
     box-sizing: border-box;
     font-family: "manrope", "sans-serif";
-    background-image: url("../img/background.jpg");
+    background-image: url(img/background.jpg);
     background-size: 100%;
 }
 
@@ -115,7 +115,7 @@ footer {
     box-sizing: border-box;
     width: 100%;
     display: flex;
-    background-image: url("../img/footer.png");
+    background-image: url("img/footer.png");
     background-size: 100% 100%;
     align-items: center;
     padding-top: 50px;
@@ -149,7 +149,7 @@ footer ul li {
     border-radius: 25px;
 }
 
-footer .data ul li:hover {
+footer ul li:hover {
     background-color: #007C62;
     transition: .5s;
 }
@@ -187,7 +187,6 @@ footer .data ul li:hover {
 
     .nav-menu-item {
         margin-right: 120px;
-        ;
     }
 
     .nav-menu-link:hover {
