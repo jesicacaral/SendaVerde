@@ -20,7 +20,7 @@ html {
     font-weight: 700;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -359,28 +359,28 @@ footer ul li:hover {
 
 /* ----------NUTRICIÓN 1---------- */
 
-.card-container{
-	width: 100%;
+.card-container {
+    width: 100%;
     padding: 50px;
-	display: flex;
+    display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
     justify-content: space-around;
 }
 
-.cards{
-    margin:20px;
+.cards {
+    margin: 20px;
     min-height: 250px;
     border-radius: 25px;
     border: 1.5px solid black;
     background-color: #FFD6AC;
 }
 
-.recetas{
-    border-radius: 25px; 
+.recetas {
+    border-radius: 25px;
 }
 
-.nombres{
+.nombres {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -388,7 +388,7 @@ footer ul li:hover {
     text-decoration: none !important;
 }
 
-.botones{
+.botones {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -396,7 +396,7 @@ footer ul li:hover {
     padding: 10px;
 }
 
-.botones a{
+.botones a {
     color: #fff;
     background-color: #00B18B;
     width: 15%;
@@ -407,7 +407,7 @@ footer ul li:hover {
     justify-content: center;
 }
 
-.botones a:hover{
+.botones a:hover {
     background-color: #007C62;
     transition: .5s;
 }
@@ -428,7 +428,8 @@ footer ul li:hover {
     gap: 20px;
 }
 
-.foto-receta, .slideshow-container {
+.foto-receta,
+.slideshow-container {
     width: 50%;
     border-radius: 25px;
 }
@@ -741,29 +742,29 @@ h4 {
 /* ----------TRIVIA---------- */
 
 .juegos {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: stretch;
-	align-content: stretch;
-	padding-top: 80px;
-	padding-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+    padding-top: 80px;
+    padding-bottom: 35px;
 }
 
 .iconos {
-	width: 50%;
+    width: 50%;
 }
 
 .juego {
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .botones-jugar {
-	width: 40%;
+    width: 40%;
     background-color: #E14924;
     border-radius: 50px;
     margin-top: 20px;
@@ -772,70 +773,92 @@ h4 {
     color: #ffffff;
 }
 
-.h1_juego{
-	font-size: 1.2em;
+.h1_juego {
+    font-size: 1.2em;
 }
+
+/* NEW LOGIN */
+
+
 
 /* ----------LOGIN---------- */
-.alineacion {
+
+.user_container {
+    padding: 5% 0 5% 0;
+    width: 25%;
+    margin: 0 auto;
+    /* background-color: tomato; */
+    animation: slide-in-top 800ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.title_user {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+form {
+    max-width: 100%;
+    padding-top: 5%;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    animation: slide-in-top 700ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-
-.espacio-abajo2 {
-    margin-bottom: 5px;
+input {
+    height: 50px;
+    color: #000000;
+    font-size: 1em;
+    background-color: #f6f6f6;
+    margin: 10px 0 10px 0;
+    border-radius: 25px;
+    border: solid #000 1.5px;
+    padding: 0 10px;
 }
 
-.espacio-abajo-abajo {
-    margin-bottom: 60px;
-}
-
-.espacio-arriba {
-    margin-top: 80px;
-}
-
-.redondeado {
-    border-radius: 5px;
-  }
-
-  .redondeado-boton {
-    border-radius: 3px;
-  }
-
-/* ----------REGISTRO---------- */
-
-.alineacion {
+.recordar_user {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
     align-items: center;
-    align-content: center;
+    gap: 10px;
+}
+
+label {
+    font-size: 1em;
+}
+
+.olvide_user {
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.olvide_user a {
+    display: block;
+    color: #000;
     text-align: center;
-    animation: slide-in-top 700ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-.espacio-abajo2 {
-    margin-bottom: 5px;
+.boton_user {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #00b18b;
+    border-radius: 25px;
+    height: 53px;
+    /* border: solid #000 1.5px; */
 }
 
-.espacio-abajo-abajo {
-    margin-bottom: 40px;
+.ingresar {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 1em;
 }
 
-.espacio-arriba {
-    margin-top: 80px;
+.boton_user:hover{
+    background-color: #007C62;
+    transition: 500ms;
 }
-.redondeado {
-    border-radius: 5px;
-  }
 
 /* ----------RESPONSIVE---------- */
 
@@ -881,13 +904,13 @@ h4 {
     footer {
         height: 120px;
         justify-content: space-between;
-        
+
     }
-        
+
     footer .data {
         display: none;
     }
-        
+
     .redes {
         display: flex;
         width: 20%;
@@ -895,10 +918,10 @@ h4 {
         padding-top: 20px;
         margin: 0 auto;
     }
-    
+
     .redes img {
         height: 25px;
-    }    
+    }
 }
 
 /* ----------HOME---------- */
@@ -990,13 +1013,13 @@ h4 {
             width: 80%;
         }
     }
-    
+
     @media (max-width:768px) {
         .foro-container {
             width: 60%;
             ;
         }
-    
+
         .content {
             display: flex;
             flex-direction: column;
@@ -1004,36 +1027,36 @@ h4 {
             /* background-color: blue; */
             height: 330px;
         }
-    
+
         .img-tienda {
             width: 100%;
             /* background-color: red; */
         }
-    
+
         .img-comu {
             width: 100%;
             /* background-color: red; */
         }
-    
+
         .button {
             width: 100%;
             flex-direction: row;
             /* background-color: tomato; */
         }
-    
+
         .foro,
         .new-foro {
             width: 50%;
         }
-    
+
         /* -----BOTONES BOTTOM----- */
-    
+
         .button_gen {
             flex-direction: column;
             padding-top: 10px;
             padding-bottom: 40px;
         }
-    
+
         .foro_gen,
         .foro_new_gen {
             width: 100%;

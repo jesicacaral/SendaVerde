@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Comunidad</title>
+	<title>Iniciá sesión</title>
 	<link href="estilos-login.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="estilos-header-footer.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,34 +28,43 @@
 		</nav>
 	</header>
 
-	<section class="alineacion espacio-arriba">
-		<article>
-			<label for="fname">Iniciar Sesion:</label><br>
-			<input class="espacio-abajo2 redondeado"  type="text"  id="fname" name="fname" placeholder="Correo electrónico"><br>
-			<!-- <label for="lname">CONTRASEÑA:</label><br> -->
-			<!-- <input type="password" id="lname" name="lname" value="Contraseña"><br><br> -->
-			<input class="espacio-abajo2 redondeado" type="text" id="fname" name="fname" placeholder="Contraseña"><br>
-			<input class="espacio-abajo-abajo redondeado" type="submit" value="Ingresar">
-
-			<div>
-				<a href="">¿Olvidaste tu contraseña?</a>
-			</div>
-		</article>
-		</form>
-	</section>
-
-    <footer>
-        <div class="redes">
-            <a href="https://www.facebook.com/" target="_blank"><img src="img/fb.svg" alt="facebook" /></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="img/ig.svg" alt="instagram" /></a>
-            <a href="https://www.twitter.com/" target="_blank"><img src="img/tw.svg" alt="twitter" /></a>
-            <a href="https://www.youtube.com/" target="_blank"><img src="img/yt.svg" alt="youtube" /></a>
-        </div>
-        <ul class="data">
-            <li><a href="#present">Nosotros</a></li>
-            <li><a href="#sectores">Sectores</a></li>
-        </ul>
-    </footer>
+	<main>
+		<div class="user_container">
+			<section class="caja_user">
+				<article class="title_user">
+					<h1>Iniciar sesión</h1>
+				</article>
+				<form method="post" action="" target="_blank" enctype="text/plain">
+					<input type="text" name="Correo" id="correo" placeholder="Correo electrónico" requiered="">
+					<input type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña" required="">
+					<div class="recordar_user">
+						<input class="recordar" type="checkbox" neme="Recordar contraseña" value="Recordar contraseña"
+							id="Recordar contraseña">
+						<label for="Recordar">Recordar en este dispositivo</label>
+					</div>
+					<div class="olvide_user">
+						<a class="olvidaste-usuario" href="#" title="Olvide user" target="_blank">¿Olvidaste tu
+							contraseña?</a>
+					</div>
+					<div class="boton_user">
+						<a href="index.html" class="ingresar">Ingresar</a>
+					</div>
+				</form>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<div class="redes">
+			<a href="https://www.facebook.com/" target="_blank"><img src="img/fb.svg" alt="facebook" /></a>
+			<a href="https://www.instagram.com/" target="_blank"><img src="img/ig.svg" alt="instagram" /></a>
+			<a href="https://www.twitter.com/" target="_blank"><img src="img/tw.svg" alt="twitter" /></a>
+			<a href="https://www.youtube.com/" target="_blank"><img src="img/yt.svg" alt="youtube" /></a>
+		</div>
+		<ul class="data">
+			<li><a href="#present">Nosotros</a></li>
+			<li><a href="#sectores">Sectores</a></li>
+		</ul>
+	</footer>
 </body>
 
 </html>
