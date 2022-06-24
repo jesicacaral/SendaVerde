@@ -16,6 +16,10 @@ html {
     list-style: none;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 a{
     text-decoration: none;
 }
@@ -164,7 +168,625 @@ footer ul li:hover {
     height: 25px;
 }
 
-/* Responsive */
+/* ----------HOME---------- */
+
+.h1_home {
+    font-family: "spicy rice", "serif";
+    font-size: 4em;
+    color: #00B18B;
+}
+
+.h2_home {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.h3_home {
+    margin: 5% 0;
+    font-size: 2em;
+    font-weight: 800;
+    color: white;
+}
+
+.p_home {
+    margin: 15px 0px;
+    font-size: 1em;
+}
+
+#landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 0;
+}
+
+.senda-logo {
+    width: 410px;
+    height: 400px;
+    margin-right: 50px;
+    background-image: url(img/img-home/logo-iso1.png);
+    background-size: 100% 100%;
+    animation: logo alternate .5s infinite ease-in-out;
+}
+
+@keyframes logo {
+    0% {
+        background-image: url(img/img-home/logo-iso1.png);
+    }
+
+    25% {
+        background-image: url(img/img-home/logo-iso2.png);
+    }
+
+    50% {
+        background-image: url(img/img-home/logo-iso3.png);
+    }
+
+    100% {
+        background-image: url(img/img-home/logo-iso4.png);
+    }
+}
+
+.bienvenida {
+    width: 30%;
+}
+
+.comenzar {
+    width: 40%;
+    background-color: #00b18b;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.comenzar a {
+    color: white;
+    text-decoration: none;
+}
+
+.comenzar:hover {
+    background-color: #007C62;
+    width: 50%;
+    transition: .5s;
+}
+
+.comenzar a:hover {
+    font-weight: 800;
+    transition: .5s;
+}
+
+/*----------PRESENTACIÓN----------*/
+
+#present {
+    display: flex;
+    justify-content: center;
+    padding: 5% 0 5% 0;
+    background-color: #00B18B;
+}
+
+.nosotros {
+    width: 30%;
+    margin-right: 50px;
+}
+
+.what {
+    width: 30%;
+}
+
+/*----------SECTORES----------*/
+
+#sectores {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 9% 0 7% 0;
+    gap: 2%;
+}
+
+#sectores h3 {
+    text-align: center;
+    font-weight: 800;
+}
+
+#sectores p {
+    padding: 0% 7% 7%;
+}
+
+.nutri,
+.comu,
+.trivia {
+    min-height: 480px;
+    width: 25%;
+}
+
+.nutri p,
+.comu p,
+.trivia p {
+    margin: 0 auto;
+    font-size: .9em;
+}
+
+.nutri {
+    border-radius: 25px;
+    background-color: #FC8A12;
+}
+
+.nutri:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+    background-color: #FC4A12;
+}
+
+.comu {
+    border-radius: 25px;
+    background-color: #57BDAE;
+}
+
+.comu:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+    background-color: #4A85A6;
+}
+
+.trivia {
+    border-radius: 25px;
+    background-color: #E14924;
+}
+
+.trivia:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+    background-color: #E12424;
+}
+
+.foto-nutri img {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.foto-comu img {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.foto-trivia img {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+/* ----------NUTRICIÓN 1---------- */
+
+.card-container{
+	width: 100%;
+    padding: 50px;
+	display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.cards{
+    margin:20px;
+    min-height: 250px;
+    border-radius: 25px;
+    border: 1.5px solid black;
+    background-color: #FFD6AC;
+}
+
+.recetas{
+    border-radius: 25px; 
+}
+
+.nombres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+    text-decoration: none !important;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* width: 100%; */
+    padding: 10px;
+}
+
+.botones a{
+    color: #fff;
+    background-color: #00B18B;
+    width: 15%;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones a:hover{
+    background-color: #007C62;
+    transition: .5s;
+}
+
+/* ----------NUTRICIÓN 2---------- */
+
+.seccion-receta {
+    padding: 25px 15% 0;
+}
+
+.espacio-abajo {
+    padding-bottom: 25px;
+}
+
+.receta {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.foto-receta, .slideshow-container {
+    width: 50%;
+    border-radius: 25px;
+}
+
+.slideshow-container img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+/* ----------COMUNIDAD 1---------- */
+
+.h1_comu {
+    font-size: 1.2em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.foro-container {
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5%;
+    animation: slide-in-top 700ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-top {
+    0% {
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.foro_shop {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.foro_exp {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+    height: 200px;
+    gap: 40px;
+}
+
+.img-tienda {
+    width: 65%;
+    background-image: url(img/img-comu/Comunidad\ 1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    min-height: 200px;
+    /* background-color: red; */
+    animation: scale-in-hor-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.img-comu {
+    width: 65%;
+    background-image: url(img/img-comu/Comunidad\ 2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 25px;
+    min-height: 200px;
+    /* background-color: red; */
+    animation: scale-in-hor-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes scale-in-hor-center {
+    0% {
+        transform: scaleX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+.comment {
+    background-color: #57bdae;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.button {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: tomato; */
+    gap: 20px;
+}
+
+.foro,
+.new-foro {
+    font-size: 1em;
+    padding: 20px;
+    color: #fff;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.foro {
+    background-color: #57BDAE;
+}
+
+.new-foro {
+    background-color: #F3B343;
+}
+
+.foro:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+    background-color: #4A85A6;
+}
+
+.new-foro:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+    background-color: #F38243;
+}
+
+/* -----BOTONES BOTTOM----- */
+
+.button_gen {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.foro_gen,
+.foro_new_gen {
+    font-size: 1em;
+    width: 30%;
+    padding: 20px;
+    color: #fff;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.foro_gen {
+    background-color: #57BDAE;
+}
+
+.foro_new_gen {
+    background-color: #F3B343;
+}
+
+.foro_gen:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+    background-color: #4A85A6;
+}
+
+.foro_new_gen:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+    background-color: #F38243;
+}
+
+/* ----------COMUNIDAD 2---------- */
+
+.container {
+    width: 60%;
+    padding: 5% 0 5% 0;
+    margin: 0 auto;
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    animation: slide-in-top 700ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-top {
+    0% {
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.content_2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+h4 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.foro_2 {
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+
+.img_foro_2 {
+    /* background-color: crimson; */
+    width: 100%;
+    background-image: url(img/img-comu/Comunidad\ 1.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 230px;
+    border-radius: 25px;
+    animation: scale-in-hor-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes scale-in-hor-center {
+    0% {
+        transform: scaleX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+.comment {
+    background-color: #57bdae;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.usuario {
+    padding: 30px 0 0 30px;
+}
+
+.post {
+    padding: 10px 0px 30px 30px;
+}
+
+
+.icon-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 80px;
+    font-size: 2.5em;
+    background-color: #F3B343;
+    border-radius: 100%;
+    height: 70px;
+}
+
+.botones_foro {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.boton_ver,
+.boton_new {
+    font-size: 1em;
+    width: 30%;
+    padding: 20px;
+    color: #fff;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.boton_ver {
+    background-color: #57BDAE;
+}
+
+.boton_new {
+    background-color: #F3B343;
+}
+
+.boton_ver:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+    background-color: #4A85A6;
+}
+
+.boton_new:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+    background-color: #F38243;
+}
+
+/* ----------TRIVIA---------- */
+
+.juegos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+	padding-top: 80px;
+	padding-bottom: 35px;
+}
+
+.iconos {
+	width: 50%;
+}
+
+.juego {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.botones-jugar {
+	width: 40%;
+    background-color: #E14924;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.h1_juego{
+	font-size: 1.2em;
+}
+
+/* ----------LOGIN---------- */
+
+/* PONER ACÁ ESTILOS LOGIN */
+
+/* ----------REGISTRO---------- */
+
+/* PONER ACÁ ESTILOS REGISTRO */
+
+/* ----------RESPONSIVE---------- */
+
+/* ----------HEADER & FOOTER---------- */
 
 @media (max-width: 768px) {
     .nav-menu {
@@ -224,4 +846,144 @@ footer ul li:hover {
     .redes img {
         height: 25px;
     }    
+}
+
+/* ----------HOME---------- */
+
+@media (max-width:1200px) {
+
+    #landing {
+        padding: 15% 0;
+    }
+
+
+    .bienvenida {
+        width: 40%;
+    }
+
+    .what {
+        width: 40%;
+    }
+}
+
+@media (max-width:768px) {
+    #landing {
+        flex-direction: column;
+        padding: 10% 0 20% 0;
+    }
+
+    .senda-logo {
+        width: 300px;
+        height: 290px;
+        margin: 0;
+    }
+
+    .bienvenida {
+        width: 70%;
+    }
+
+    .bienvenida h1 {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .bienvenida p {
+        text-align: center;
+    }
+
+    .comenzar {
+        margin: 30px auto 0;
+    }
+
+    #present {
+        flex-direction: column;
+        padding: 14% 0 14% 0;
+        gap: 50px;
+    }
+
+    .nosotros,
+    .what {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    /* Sectores */
+
+    #sectores {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20% 0 10%;
+        gap: 50px;
+    }
+
+    #sectores h3 {
+        margin: 20px 0;
+    }
+
+    .nutri,
+    .comu,
+    .trivia {
+        min-height: 550px;
+        width: 70%;
+    }
+
+    /* ----------COMUNIDAD 1---------- */
+
+    @media (max-width:1200px) {
+        .foro-container {
+            width: 80%;
+        }
+    }
+    
+    @media (max-width:768px) {
+        .foro-container {
+            width: 60%;
+            ;
+        }
+    
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* background-color: blue; */
+            height: 330px;
+        }
+    
+        .img-tienda {
+            width: 100%;
+            /* background-color: red; */
+        }
+    
+        .img-comu {
+            width: 100%;
+            /* background-color: red; */
+        }
+    
+        .button {
+            width: 100%;
+            flex-direction: row;
+            /* background-color: tomato; */
+        }
+    
+        .foro,
+        .new-foro {
+            width: 50%;
+        }
+    
+        /* -----BOTONES BOTTOM----- */
+    
+        .button_gen {
+            flex-direction: column;
+            padding-top: 10px;
+            padding-bottom: 40px;
+        }
+    
+        .foro_gen,
+        .foro_new_gen {
+            width: 100%;
+        }
+    }
 }
