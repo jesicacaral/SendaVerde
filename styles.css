@@ -10,7 +10,6 @@ html {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    box-sizing: border-box;
 }
 
 .bold {
@@ -1006,16 +1005,9 @@ label {
 
     /* ----------COMUNIDAD 1---------- */
 
-    @media (max-width:1200px) {
-        .foro-container {
-            width: 80%;
-        }
-    }
-
     @media (max-width:768px) {
         .foro-container {
-            width: 60%;
-            ;
+            width: 80%;;
         }
 
         .content {
@@ -1059,5 +1051,11 @@ label {
         .foro_new_gen {
             width: 100%;
         }
+    }
+}
+
+@media (max-width:1200px) {
+    .foro-container {
+        width: 80%;
     }
 }
