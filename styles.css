@@ -1,9 +1,5 @@
-/*------------------------------ESTILOS HEADER Y FOOTER------------------------------*/
-/* (los ponemos aca porque se repiten en todas las paginas) */
-
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Spicy+Rice&display=swap');
 
-/*------------------------------GENERAL RESET------------------------------*/
 
 html {
     scroll-behavior: smooth;
@@ -14,6 +10,7 @@ html {
     margin: 0px;
     padding: 0px;
     list-style: none;
+    box-sizing: border-box;
 }
 
 .bold {
@@ -194,6 +191,7 @@ footer ul li:hover {
 }
 
 #landing {
+    animation: slide-in-top 700ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,6 +258,7 @@ footer ul li:hover {
 /*----------PRESENTACIÓN----------*/
 
 #present {
+    animation: slide-in-top 700ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     display: flex;
     justify-content: center;
     padding: 5% 0 5% 0;
@@ -366,6 +365,7 @@ footer ul li:hover {
     flex-wrap: wrap;
     box-sizing: border-box;
     justify-content: space-around;
+    animation: slide-in-top 700ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .cards {
@@ -415,6 +415,7 @@ footer ul li:hover {
 /* ----------NUTRICIÓN 2---------- */
 
 .seccion-receta {
+    animation: slide-in-top 700ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     padding: 25px 15% 0;
 }
 
@@ -750,6 +751,7 @@ h4 {
     align-content: stretch;
     padding-top: 80px;
     padding-bottom: 35px;
+    animation: slide-in-top 700ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .iconos {
@@ -777,15 +779,11 @@ h4 {
     font-size: 1.2em;
 }
 
-/* NEW LOGIN */
-
-
-
-/* ----------LOGIN---------- */
+/* ----------LOGIN & SIGNUP---------- */
 
 .user_container {
     padding: 5% 0 5% 0;
-    width: 25%;
+    width: 30%;
     margin: 0 auto;
     /* background-color: tomato; */
     animation: slide-in-top 800ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -801,6 +799,7 @@ form {
     padding-top: 5%;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 input {
@@ -808,7 +807,6 @@ input {
     color: #000000;
     font-size: 1em;
     background-color: #f6f6f6;
-    margin: 10px 0 10px 0;
     border-radius: 25px;
     border: solid #000 1.5px;
     padding: 0 10px;
@@ -823,18 +821,6 @@ input {
 
 label {
     font-size: 1em;
-}
-
-.olvide_user {
-    width: 100%;
-    margin: 0 auto;
-    height: 50px;
-}
-
-.olvide_user a {
-    display: block;
-    color: #000;
-    text-align: center;
 }
 
 .boton_user {
@@ -858,6 +844,18 @@ label {
 .boton_user:hover{
     background-color: #007C62;
     transition: 500ms;
+}
+
+.boton_regist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.boton_regist a{
+    color: #000;
 }
 
 /* ----------RESPONSIVE---------- */
